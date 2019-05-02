@@ -1,0 +1,855 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`card should render with out crashing 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Card
+    info={
+      Object {
+        "address": "",
+        "email": "",
+        "fullName": "",
+        "jobDescription": "",
+        "phoneNumber": "",
+        "prefix": "+93",
+        "website": "",
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <figure
+          className="businessCard-badge"
+        >
+          <a
+            className="businessCard-badge-logo"
+            href="http://www.cabify.com"
+          >
+            <img
+              alt="Cabify"
+              src="cabify-logo.svg"
+            />
+          </a>
+        </figure>,
+        <h1
+          className="title-main"
+        >
+          Request your business card
+        </h1>,
+        <div
+          className="businessCard-cards"
+        >
+          <div
+            className="businessCard-cardBack"
+          />
+          <div
+            className="businessCard-cardFront"
+          >
+            <div>
+              <p
+                className="businessCard-cardFront-title"
+              >
+                
+              </p>
+              <p
+                className="businessCard-cardFront-subtitle"
+              >
+                
+              </p>
+            </div>
+            <div
+              className="businessCard-cardFront-bottom"
+            >
+              <p
+                className="businessCard-icon-phone"
+              >
+                +93
+                 
+                
+              </p>
+              <p
+                className="businessCard-icon-email"
+              >
+                
+              </p>
+              <p
+                className="businessCard-icon-website"
+              >
+                
+              </p>
+              <p
+                className="businessCard-icon-address"
+              >
+                
+              </p>
+            </div>
+          </div>
+        </div>,
+      ],
+      "className": "businessCard col col6",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <a
+            className="businessCard-badge-logo"
+            href="http://www.cabify.com"
+          >
+            <img
+              alt="Cabify"
+              src="cabify-logo.svg"
+            />
+          </a>,
+          "className": "businessCard-badge",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <img
+              alt="Cabify"
+              src="cabify-logo.svg"
+            />,
+            "className": "businessCard-badge-logo",
+            "href": "http://www.cabify.com",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "alt": "Cabify",
+              "src": "cabify-logo.svg",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "img",
+          },
+          "type": "a",
+        },
+        "type": "figure",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Request your business card",
+          "className": "title-main",
+        },
+        "ref": null,
+        "rendered": "Request your business card",
+        "type": "h1",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="businessCard-cardBack"
+            />,
+            <div
+              className="businessCard-cardFront"
+            >
+              <div>
+                <p
+                  className="businessCard-cardFront-title"
+                >
+                  
+                </p>
+                <p
+                  className="businessCard-cardFront-subtitle"
+                >
+                  
+                </p>
+              </div>
+              <div
+                className="businessCard-cardFront-bottom"
+              >
+                <p
+                  className="businessCard-icon-phone"
+                >
+                  +93
+                   
+                  
+                </p>
+                <p
+                  className="businessCard-icon-email"
+                >
+                  
+                </p>
+                <p
+                  className="businessCard-icon-website"
+                >
+                  
+                </p>
+                <p
+                  className="businessCard-icon-address"
+                >
+                  
+                </p>
+              </div>
+            </div>,
+          ],
+          "className": "businessCard-cards",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "businessCard-cardBack",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div>
+                  <p
+                    className="businessCard-cardFront-title"
+                  >
+                    
+                  </p>
+                  <p
+                    className="businessCard-cardFront-subtitle"
+                  >
+                    
+                  </p>
+                </div>,
+                <div
+                  className="businessCard-cardFront-bottom"
+                >
+                  <p
+                    className="businessCard-icon-phone"
+                  >
+                    +93
+                     
+                    
+                  </p>
+                  <p
+                    className="businessCard-icon-email"
+                  >
+                    
+                  </p>
+                  <p
+                    className="businessCard-icon-website"
+                  >
+                    
+                  </p>
+                  <p
+                    className="businessCard-icon-address"
+                  >
+                    
+                  </p>
+                </div>,
+              ],
+              "className": "businessCard-cardFront",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <p
+                      className="businessCard-cardFront-title"
+                    >
+                      
+                    </p>,
+                    <p
+                      className="businessCard-cardFront-subtitle"
+                    >
+                      
+                    </p>,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "",
+                      "className": "businessCard-cardFront-title",
+                    },
+                    "ref": null,
+                    "rendered": "",
+                    "type": "p",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "",
+                      "className": "businessCard-cardFront-subtitle",
+                    },
+                    "ref": null,
+                    "rendered": "",
+                    "type": "p",
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <p
+                      className="businessCard-icon-phone"
+                    >
+                      +93
+                       
+                      
+                    </p>,
+                    <p
+                      className="businessCard-icon-email"
+                    >
+                      
+                    </p>,
+                    <p
+                      className="businessCard-icon-website"
+                    >
+                      
+                    </p>,
+                    <p
+                      className="businessCard-icon-address"
+                    >
+                      
+                    </p>,
+                  ],
+                  "className": "businessCard-cardFront-bottom",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        "+93",
+                        " ",
+                        "",
+                      ],
+                      "className": "businessCard-icon-phone",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      "+93",
+                      " ",
+                      "",
+                    ],
+                    "type": "p",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "",
+                      "className": "businessCard-icon-email",
+                    },
+                    "ref": null,
+                    "rendered": "",
+                    "type": "p",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "",
+                      "className": "businessCard-icon-website",
+                    },
+                    "ref": null,
+                    "rendered": "",
+                    "type": "p",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "",
+                      "className": "businessCard-icon-address",
+                    },
+                    "ref": null,
+                    "rendered": "",
+                    "type": "p",
+                  },
+                ],
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "article",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <figure
+            className="businessCard-badge"
+          >
+            <a
+              className="businessCard-badge-logo"
+              href="http://www.cabify.com"
+            >
+              <img
+                alt="Cabify"
+                src="cabify-logo.svg"
+              />
+            </a>
+          </figure>,
+          <h1
+            className="title-main"
+          >
+            Request your business card
+          </h1>,
+          <div
+            className="businessCard-cards"
+          >
+            <div
+              className="businessCard-cardBack"
+            />
+            <div
+              className="businessCard-cardFront"
+            >
+              <div>
+                <p
+                  className="businessCard-cardFront-title"
+                >
+                  
+                </p>
+                <p
+                  className="businessCard-cardFront-subtitle"
+                >
+                  
+                </p>
+              </div>
+              <div
+                className="businessCard-cardFront-bottom"
+              >
+                <p
+                  className="businessCard-icon-phone"
+                >
+                  +93
+                   
+                  
+                </p>
+                <p
+                  className="businessCard-icon-email"
+                >
+                  
+                </p>
+                <p
+                  className="businessCard-icon-website"
+                >
+                  
+                </p>
+                <p
+                  className="businessCard-icon-address"
+                >
+                  
+                </p>
+              </div>
+            </div>
+          </div>,
+        ],
+        "className": "businessCard col col6",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <a
+              className="businessCard-badge-logo"
+              href="http://www.cabify.com"
+            >
+              <img
+                alt="Cabify"
+                src="cabify-logo.svg"
+              />
+            </a>,
+            "className": "businessCard-badge",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <img
+                alt="Cabify"
+                src="cabify-logo.svg"
+              />,
+              "className": "businessCard-badge-logo",
+              "href": "http://www.cabify.com",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "Cabify",
+                "src": "cabify-logo.svg",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            "type": "a",
+          },
+          "type": "figure",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Request your business card",
+            "className": "title-main",
+          },
+          "ref": null,
+          "rendered": "Request your business card",
+          "type": "h1",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="businessCard-cardBack"
+              />,
+              <div
+                className="businessCard-cardFront"
+              >
+                <div>
+                  <p
+                    className="businessCard-cardFront-title"
+                  >
+                    
+                  </p>
+                  <p
+                    className="businessCard-cardFront-subtitle"
+                  >
+                    
+                  </p>
+                </div>
+                <div
+                  className="businessCard-cardFront-bottom"
+                >
+                  <p
+                    className="businessCard-icon-phone"
+                  >
+                    +93
+                     
+                    
+                  </p>
+                  <p
+                    className="businessCard-icon-email"
+                  >
+                    
+                  </p>
+                  <p
+                    className="businessCard-icon-website"
+                  >
+                    
+                  </p>
+                  <p
+                    className="businessCard-icon-address"
+                  >
+                    
+                  </p>
+                </div>
+              </div>,
+            ],
+            "className": "businessCard-cards",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "businessCard-cardBack",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <div>
+                    <p
+                      className="businessCard-cardFront-title"
+                    >
+                      
+                    </p>
+                    <p
+                      className="businessCard-cardFront-subtitle"
+                    >
+                      
+                    </p>
+                  </div>,
+                  <div
+                    className="businessCard-cardFront-bottom"
+                  >
+                    <p
+                      className="businessCard-icon-phone"
+                    >
+                      +93
+                       
+                      
+                    </p>
+                    <p
+                      className="businessCard-icon-email"
+                    >
+                      
+                    </p>
+                    <p
+                      className="businessCard-icon-website"
+                    >
+                      
+                    </p>
+                    <p
+                      className="businessCard-icon-address"
+                    >
+                      
+                    </p>
+                  </div>,
+                ],
+                "className": "businessCard-cardFront",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <p
+                        className="businessCard-cardFront-title"
+                      >
+                        
+                      </p>,
+                      <p
+                        className="businessCard-cardFront-subtitle"
+                      >
+                        
+                      </p>,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "",
+                        "className": "businessCard-cardFront-title",
+                      },
+                      "ref": null,
+                      "rendered": "",
+                      "type": "p",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "",
+                        "className": "businessCard-cardFront-subtitle",
+                      },
+                      "ref": null,
+                      "rendered": "",
+                      "type": "p",
+                    },
+                  ],
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <p
+                        className="businessCard-icon-phone"
+                      >
+                        +93
+                         
+                        
+                      </p>,
+                      <p
+                        className="businessCard-icon-email"
+                      >
+                        
+                      </p>,
+                      <p
+                        className="businessCard-icon-website"
+                      >
+                        
+                      </p>,
+                      <p
+                        className="businessCard-icon-address"
+                      >
+                        
+                      </p>,
+                    ],
+                    "className": "businessCard-cardFront-bottom",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          "+93",
+                          " ",
+                          "",
+                        ],
+                        "className": "businessCard-icon-phone",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        "+93",
+                        " ",
+                        "",
+                      ],
+                      "type": "p",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "",
+                        "className": "businessCard-icon-email",
+                      },
+                      "ref": null,
+                      "rendered": "",
+                      "type": "p",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "",
+                        "className": "businessCard-icon-website",
+                      },
+                      "ref": null,
+                      "rendered": "",
+                      "type": "p",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "",
+                        "className": "businessCard-icon-address",
+                      },
+                      "ref": null,
+                      "rendered": "",
+                      "type": "p",
+                    },
+                  ],
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "article",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": false,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

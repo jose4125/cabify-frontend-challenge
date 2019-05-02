@@ -1,0 +1,367 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Select Field should render with out crashing 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Select
+    codes={Array []}
+    counter={0}
+    countryCodeSelected="+93"
+    isOpen={false}
+    optionSelectedElement={null}
+    setCountrySelected={
+      [MockFunction] {
+        "calls": Array [
+          Array [
+            "+93",
+          ],
+        ],
+        "results": Array [
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+        ],
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="input select"
+        >
+          <p
+            className="select__label"
+          >
+            Prefix
+          </p>
+          <button
+            className="select__button"
+            onKeyDown={[Function]}
+            type="button"
+          >
+            +93
+            <img
+              alt="chevron"
+              className="select__chevron"
+              src="arrow.svg"
+            />
+          </button>
+        </div>,
+        <div
+          className="dropdown"
+        >
+          <ul
+            className="dropdown__wrapper"
+          />
+        </div>,
+      ],
+      "className": "formField-input formField-input--select  active  col col12",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <p
+              className="select__label"
+            >
+              Prefix
+            </p>,
+            <button
+              className="select__button"
+              onKeyDown={[Function]}
+              type="button"
+            >
+              +93
+              <img
+                alt="chevron"
+                className="select__chevron"
+                src="arrow.svg"
+              />
+            </button>,
+          ],
+          "className": "input select",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Prefix",
+              "className": "select__label",
+            },
+            "ref": null,
+            "rendered": "Prefix",
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "+93",
+                <img
+                  alt="chevron"
+                  className="select__chevron"
+                  src="arrow.svg"
+                />,
+              ],
+              "className": "select__button",
+              "onClick": undefined,
+              "onKeyDown": [Function],
+              "type": "button",
+            },
+            "ref": null,
+            "rendered": Array [
+              "+93",
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "chevron",
+                  "className": "select__chevron",
+                  "src": "arrow.svg",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+            ],
+            "type": "button",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <ul
+            className="dropdown__wrapper"
+          />,
+          "className": "dropdown",
+        },
+        "ref": Object {
+          "current": null,
+        },
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": undefined,
+            "className": "dropdown__wrapper",
+          },
+          "ref": Object {
+            "current": null,
+          },
+          "rendered": null,
+          "type": "ul",
+        },
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="input select"
+          >
+            <p
+              className="select__label"
+            >
+              Prefix
+            </p>
+            <button
+              className="select__button"
+              onKeyDown={[Function]}
+              type="button"
+            >
+              +93
+              <img
+                alt="chevron"
+                className="select__chevron"
+                src="arrow.svg"
+              />
+            </button>
+          </div>,
+          <div
+            className="dropdown"
+          >
+            <ul
+              className="dropdown__wrapper"
+            />
+          </div>,
+        ],
+        "className": "formField-input formField-input--select  active  col col12",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <p
+                className="select__label"
+              >
+                Prefix
+              </p>,
+              <button
+                className="select__button"
+                onKeyDown={[Function]}
+                type="button"
+              >
+                +93
+                <img
+                  alt="chevron"
+                  className="select__chevron"
+                  src="arrow.svg"
+                />
+              </button>,
+            ],
+            "className": "input select",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Prefix",
+                "className": "select__label",
+              },
+              "ref": null,
+              "rendered": "Prefix",
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "+93",
+                  <img
+                    alt="chevron"
+                    className="select__chevron"
+                    src="arrow.svg"
+                  />,
+                ],
+                "className": "select__button",
+                "onClick": undefined,
+                "onKeyDown": [Function],
+                "type": "button",
+              },
+              "ref": null,
+              "rendered": Array [
+                "+93",
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "alt": "chevron",
+                    "className": "select__chevron",
+                    "src": "arrow.svg",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "img",
+                },
+              ],
+              "type": "button",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <ul
+              className="dropdown__wrapper"
+            />,
+            "className": "dropdown",
+          },
+          "ref": Object {
+            "current": null,
+          },
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": undefined,
+              "className": "dropdown__wrapper",
+            },
+            "ref": Object {
+              "current": null,
+            },
+            "rendered": null,
+            "type": "ul",
+          },
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": false,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;

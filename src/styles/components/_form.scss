@@ -17,20 +17,22 @@ input:-webkit-autofill {
     display: flex;
     border-bottom: solid 1px $color-positive-lighter;
     transition: all $fastest ease;
-    &.active {
-      .input label {
-        top: 0;
-      }
-    }
-    
+
+
     &.focus {
       border-color: $color-focus;
-      
-      .input input {
+
+      .input input,
+      .select__button {
         color: $color-main;
       }
     }
-    
+
+    &.error,
+    &.error.focus {
+      border-color: $color-fb-negative;
+    }
+
     &.disabled {
       border-bottom: dotted 1px $color-positive-lighter;
       .input input {
@@ -38,12 +40,13 @@ input:-webkit-autofill {
         cursor: not-allowed;
       }
     }
-    
+
     .input {
       flex: 1 1 100%;
       position: relative;
-      
-      label {
+
+      label,
+      .select__label {
         color: $color-positive-light;
         font-size: $font-size-xs;
         line-height: 16px;
@@ -54,14 +57,29 @@ input:-webkit-autofill {
         left: 0;
         transition: all $fastest ease;
       }
-      
-      input {
+
+      input,
+      .select__button {
         background-color: transparent;
         padding: $spacing*2 0 $spacing;
         width: 100%;
         font-size: $font-size-s;
         line-height: 16px;
       }
+    }
+
+    &.active {
+      .input label,
+      .select__label {
+        top: 0;
+      }
+    }
+
+    .warning {
+      position: absolute;
+      right: 0;
+      top: 50%;
+      transform: translateY(-50%);
     }
   }
 }

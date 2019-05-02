@@ -3,10 +3,15 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.12.1",
+    "flagkit-web": "^0.0.3",
     "node-sass-chokidar": "^1.3.0",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
-    "react-scripts": "2.1.8"
+    "react-onclickoutside": "^6.8.0",
+    "react-scripts": "2.1.8",
+    "react-test-renderer": "^16.8.6"
   },
   "scripts": {
     "build-css": "node-sass-chokidar src/ -o src/",
@@ -21,5 +26,16 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx}",
+      "!<rootDir>/node_modules/",
+      "!src/index.js",
+      "!src/registerServiceWorker.js"
+    ]
+  },
+  "devDependencies": {
+    "fetch-mock": "^7.3.3"
+  }
 }

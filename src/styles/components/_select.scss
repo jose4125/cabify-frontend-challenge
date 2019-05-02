@@ -1,0 +1,78 @@
+.formField-input--select {
+  position: relative;
+
+  &.isOpen {
+    .select__chevron {
+      transform: rotate(180deg);
+    }
+
+    .dropdown {
+      display: block;
+    }
+
+  }
+}
+
+.select {
+  &__button {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    border: 0;
+  }
+  &__chevron {
+    height: 5px;
+    width: 8px;
+    transition: all $fastest ease;
+  }
+}
+
+.dropdown {
+  background: $color-white;
+  box-shadow: 0px 1px 4px 1px rgba(167, 179, 100, 0.6);
+  border-radius: 4px;
+  height: 192px;
+  position: absolute;
+  width: 260px;
+  top: 39px;
+  z-index: 1;
+  padding: 8px;
+  overflow-x: scroll;
+  display: none;
+
+  &__item {
+    display: flex;
+    border-radius: 4px;
+    cursor: pointer;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 16px;
+    font-size: $font-size-l;
+    color: $color-positive-light;
+
+    &:hover {
+      background: $color-selago;
+    }
+
+    &.selected .dropdown__country-name {
+      color: $color-martinique;
+      background: tomato;
+    }
+  }
+
+  &__country {
+    display: flex;
+    align-items: center;
+    width: 60%;
+  }
+
+  .flag {
+    margin-right: 16.5px;
+    height: 15px;
+    width: 15px;
+    border-radius: 7px;
+    background-position: center;
+    min-width: 15px;
+  }
+}

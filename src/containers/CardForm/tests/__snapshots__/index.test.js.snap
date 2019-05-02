@@ -1,0 +1,1245 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CardFrom should render with out creashing 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <CardForm
+    context={
+      Object {
+        "handleReset": [MockFunction],
+        "state": Object {
+          "address": "",
+          "email": "",
+          "fullName": "",
+          "jobDescription": "",
+          "phoneNumber": "",
+          "prefix": "",
+          "website": "",
+        },
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <form
+        className="form"
+        onSubmit={[Function]}
+      >
+        <div
+          className="row"
+        >
+          <FormField
+            isDirty={false}
+            isFocus={false}
+            isValid={false}
+            label="Full name"
+            name="fullname"
+            onHandleBlur={[Function]}
+            onHandleChange={[Function]}
+            onHandleFocus={[Function]}
+            stateName="fullName"
+            touched={false}
+            type="text"
+            value=""
+          />
+        </div>
+        <div
+          className="row row-separationMedium"
+        >
+          <FormField
+            isDirty={false}
+            isFocus={false}
+            isValid={false}
+            label="Job description"
+            name="jobdescription"
+            onHandleBlur={[Function]}
+            onHandleChange={[Function]}
+            onHandleFocus={[Function]}
+            stateName="jobDescription"
+            touched={false}
+            type="text"
+            value=""
+          />
+        </div>
+        <div
+          className="row row-separationMedium row-gutterMedium"
+        >
+          <div
+            className="col col3"
+          />
+          <FormField
+            col="9"
+            isDirty={false}
+            isFocus={false}
+            isValid={false}
+            label="Phone number"
+            name="phonenumber"
+            onHandleBlur={[Function]}
+            onHandleChange={[Function]}
+            onHandleFocus={[Function]}
+            stateName="phoneNumber"
+            touched={false}
+            type="tel"
+            value=""
+          />
+        </div>
+        <div
+          className="row row-separationMedium"
+        >
+          <FormField
+            isDirty={false}
+            isFocus={false}
+            isValid={false}
+            label="Email"
+            name="email"
+            onHandleBlur={[Function]}
+            onHandleChange={[Function]}
+            onHandleFocus={[Function]}
+            stateName="email"
+            touched={false}
+            type="email"
+            value=""
+          />
+        </div>
+        <div
+          className="row row-separationMedium"
+        >
+          <FormField
+            isDirty={false}
+            isFocus={false}
+            label="Website"
+            name="website"
+            onHandleBlur={[Function]}
+            onHandleChange={[Function]}
+            onHandleFocus={[Function]}
+            stateName="website"
+            touched={false}
+            type="text"
+            value=""
+          />
+        </div>
+        <div
+          className="row row-separationMedium"
+        >
+          <FormField
+            isDirty={false}
+            isFocus={false}
+            isValid={false}
+            label="Address"
+            name="address"
+            onHandleBlur={[Function]}
+            onHandleChange={[Function]}
+            onHandleFocus={[Function]}
+            stateName="address"
+            touched={false}
+            type="text"
+            value=""
+          />
+        </div>
+        <div
+          className="row row-separationHuge"
+        >
+          <input
+            className="button button-full button-primary disabled"
+            type="submit"
+            value="Request"
+          />
+        </div>
+      </form>,
+      "className": "builder col col6",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="row"
+          >
+            <FormField
+              isDirty={false}
+              isFocus={false}
+              isValid={false}
+              label="Full name"
+              name="fullname"
+              onHandleBlur={[Function]}
+              onHandleChange={[Function]}
+              onHandleFocus={[Function]}
+              stateName="fullName"
+              touched={false}
+              type="text"
+              value=""
+            />
+          </div>,
+          <div
+            className="row row-separationMedium"
+          >
+            <FormField
+              isDirty={false}
+              isFocus={false}
+              isValid={false}
+              label="Job description"
+              name="jobdescription"
+              onHandleBlur={[Function]}
+              onHandleChange={[Function]}
+              onHandleFocus={[Function]}
+              stateName="jobDescription"
+              touched={false}
+              type="text"
+              value=""
+            />
+          </div>,
+          <div
+            className="row row-separationMedium row-gutterMedium"
+          >
+            <div
+              className="col col3"
+            />
+            <FormField
+              col="9"
+              isDirty={false}
+              isFocus={false}
+              isValid={false}
+              label="Phone number"
+              name="phonenumber"
+              onHandleBlur={[Function]}
+              onHandleChange={[Function]}
+              onHandleFocus={[Function]}
+              stateName="phoneNumber"
+              touched={false}
+              type="tel"
+              value=""
+            />
+          </div>,
+          <div
+            className="row row-separationMedium"
+          >
+            <FormField
+              isDirty={false}
+              isFocus={false}
+              isValid={false}
+              label="Email"
+              name="email"
+              onHandleBlur={[Function]}
+              onHandleChange={[Function]}
+              onHandleFocus={[Function]}
+              stateName="email"
+              touched={false}
+              type="email"
+              value=""
+            />
+          </div>,
+          <div
+            className="row row-separationMedium"
+          >
+            <FormField
+              isDirty={false}
+              isFocus={false}
+              label="Website"
+              name="website"
+              onHandleBlur={[Function]}
+              onHandleChange={[Function]}
+              onHandleFocus={[Function]}
+              stateName="website"
+              touched={false}
+              type="text"
+              value=""
+            />
+          </div>,
+          <div
+            className="row row-separationMedium"
+          >
+            <FormField
+              isDirty={false}
+              isFocus={false}
+              isValid={false}
+              label="Address"
+              name="address"
+              onHandleBlur={[Function]}
+              onHandleChange={[Function]}
+              onHandleFocus={[Function]}
+              stateName="address"
+              touched={false}
+              type="text"
+              value=""
+            />
+          </div>,
+          <div
+            className="row row-separationHuge"
+          >
+            <input
+              className="button button-full button-primary disabled"
+              type="submit"
+              value="Request"
+            />
+          </div>,
+        ],
+        "className": "form",
+        "onSubmit": [Function],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <FormField
+              isDirty={false}
+              isFocus={false}
+              isValid={false}
+              label="Full name"
+              name="fullname"
+              onHandleBlur={[Function]}
+              onHandleChange={[Function]}
+              onHandleFocus={[Function]}
+              stateName="fullName"
+              touched={false}
+              type="text"
+              value=""
+            />,
+            "className": "row",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "isDirty": false,
+              "isFocus": false,
+              "isValid": false,
+              "label": "Full name",
+              "name": "fullname",
+              "onHandleBlur": [Function],
+              "onHandleChange": [Function],
+              "onHandleFocus": [Function],
+              "stateName": "fullName",
+              "touched": false,
+              "type": "text",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <FormField
+              isDirty={false}
+              isFocus={false}
+              isValid={false}
+              label="Job description"
+              name="jobdescription"
+              onHandleBlur={[Function]}
+              onHandleChange={[Function]}
+              onHandleFocus={[Function]}
+              stateName="jobDescription"
+              touched={false}
+              type="text"
+              value=""
+            />,
+            "className": "row row-separationMedium",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "isDirty": false,
+              "isFocus": false,
+              "isValid": false,
+              "label": "Job description",
+              "name": "jobdescription",
+              "onHandleBlur": [Function],
+              "onHandleChange": [Function],
+              "onHandleFocus": [Function],
+              "stateName": "jobDescription",
+              "touched": false,
+              "type": "text",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="col col3"
+              />,
+              <FormField
+                col="9"
+                isDirty={false}
+                isFocus={false}
+                isValid={false}
+                label="Phone number"
+                name="phonenumber"
+                onHandleBlur={[Function]}
+                onHandleChange={[Function]}
+                onHandleFocus={[Function]}
+                stateName="phoneNumber"
+                touched={false}
+                type="tel"
+                value=""
+              />,
+            ],
+            "className": "row row-separationMedium row-gutterMedium",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": false,
+                "className": "col col3",
+              },
+              "ref": null,
+              "rendered": false,
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "col": "9",
+                "isDirty": false,
+                "isFocus": false,
+                "isValid": false,
+                "label": "Phone number",
+                "name": "phonenumber",
+                "onHandleBlur": [Function],
+                "onHandleChange": [Function],
+                "onHandleFocus": [Function],
+                "stateName": "phoneNumber",
+                "touched": false,
+                "type": "tel",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <FormField
+              isDirty={false}
+              isFocus={false}
+              isValid={false}
+              label="Email"
+              name="email"
+              onHandleBlur={[Function]}
+              onHandleChange={[Function]}
+              onHandleFocus={[Function]}
+              stateName="email"
+              touched={false}
+              type="email"
+              value=""
+            />,
+            "className": "row row-separationMedium",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "isDirty": false,
+              "isFocus": false,
+              "isValid": false,
+              "label": "Email",
+              "name": "email",
+              "onHandleBlur": [Function],
+              "onHandleChange": [Function],
+              "onHandleFocus": [Function],
+              "stateName": "email",
+              "touched": false,
+              "type": "email",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <FormField
+              isDirty={false}
+              isFocus={false}
+              label="Website"
+              name="website"
+              onHandleBlur={[Function]}
+              onHandleChange={[Function]}
+              onHandleFocus={[Function]}
+              stateName="website"
+              touched={false}
+              type="text"
+              value=""
+            />,
+            "className": "row row-separationMedium",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "isDirty": false,
+              "isFocus": false,
+              "label": "Website",
+              "name": "website",
+              "onHandleBlur": [Function],
+              "onHandleChange": [Function],
+              "onHandleFocus": [Function],
+              "stateName": "website",
+              "touched": false,
+              "type": "text",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <FormField
+              isDirty={false}
+              isFocus={false}
+              isValid={false}
+              label="Address"
+              name="address"
+              onHandleBlur={[Function]}
+              onHandleChange={[Function]}
+              onHandleFocus={[Function]}
+              stateName="address"
+              touched={false}
+              type="text"
+              value=""
+            />,
+            "className": "row row-separationMedium",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "isDirty": false,
+              "isFocus": false,
+              "isValid": false,
+              "label": "Address",
+              "name": "address",
+              "onHandleBlur": [Function],
+              "onHandleChange": [Function],
+              "onHandleFocus": [Function],
+              "stateName": "address",
+              "touched": false,
+              "type": "text",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <input
+              className="button button-full button-primary disabled"
+              type="submit"
+              value="Request"
+            />,
+            "className": "row row-separationHuge",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "button button-full button-primary disabled",
+              "type": "submit",
+              "value": "Request",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          "type": "div",
+        },
+      ],
+      "type": "form",
+    },
+    "type": "article",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <form
+          className="form"
+          onSubmit={[Function]}
+        >
+          <div
+            className="row"
+          >
+            <FormField
+              isDirty={false}
+              isFocus={false}
+              isValid={false}
+              label="Full name"
+              name="fullname"
+              onHandleBlur={[Function]}
+              onHandleChange={[Function]}
+              onHandleFocus={[Function]}
+              stateName="fullName"
+              touched={false}
+              type="text"
+              value=""
+            />
+          </div>
+          <div
+            className="row row-separationMedium"
+          >
+            <FormField
+              isDirty={false}
+              isFocus={false}
+              isValid={false}
+              label="Job description"
+              name="jobdescription"
+              onHandleBlur={[Function]}
+              onHandleChange={[Function]}
+              onHandleFocus={[Function]}
+              stateName="jobDescription"
+              touched={false}
+              type="text"
+              value=""
+            />
+          </div>
+          <div
+            className="row row-separationMedium row-gutterMedium"
+          >
+            <div
+              className="col col3"
+            />
+            <FormField
+              col="9"
+              isDirty={false}
+              isFocus={false}
+              isValid={false}
+              label="Phone number"
+              name="phonenumber"
+              onHandleBlur={[Function]}
+              onHandleChange={[Function]}
+              onHandleFocus={[Function]}
+              stateName="phoneNumber"
+              touched={false}
+              type="tel"
+              value=""
+            />
+          </div>
+          <div
+            className="row row-separationMedium"
+          >
+            <FormField
+              isDirty={false}
+              isFocus={false}
+              isValid={false}
+              label="Email"
+              name="email"
+              onHandleBlur={[Function]}
+              onHandleChange={[Function]}
+              onHandleFocus={[Function]}
+              stateName="email"
+              touched={false}
+              type="email"
+              value=""
+            />
+          </div>
+          <div
+            className="row row-separationMedium"
+          >
+            <FormField
+              isDirty={false}
+              isFocus={false}
+              label="Website"
+              name="website"
+              onHandleBlur={[Function]}
+              onHandleChange={[Function]}
+              onHandleFocus={[Function]}
+              stateName="website"
+              touched={false}
+              type="text"
+              value=""
+            />
+          </div>
+          <div
+            className="row row-separationMedium"
+          >
+            <FormField
+              isDirty={false}
+              isFocus={false}
+              isValid={false}
+              label="Address"
+              name="address"
+              onHandleBlur={[Function]}
+              onHandleChange={[Function]}
+              onHandleFocus={[Function]}
+              stateName="address"
+              touched={false}
+              type="text"
+              value=""
+            />
+          </div>
+          <div
+            className="row row-separationHuge"
+          >
+            <input
+              className="button button-full button-primary disabled"
+              type="submit"
+              value="Request"
+            />
+          </div>
+        </form>,
+        "className": "builder col col6",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="row"
+            >
+              <FormField
+                isDirty={false}
+                isFocus={false}
+                isValid={false}
+                label="Full name"
+                name="fullname"
+                onHandleBlur={[Function]}
+                onHandleChange={[Function]}
+                onHandleFocus={[Function]}
+                stateName="fullName"
+                touched={false}
+                type="text"
+                value=""
+              />
+            </div>,
+            <div
+              className="row row-separationMedium"
+            >
+              <FormField
+                isDirty={false}
+                isFocus={false}
+                isValid={false}
+                label="Job description"
+                name="jobdescription"
+                onHandleBlur={[Function]}
+                onHandleChange={[Function]}
+                onHandleFocus={[Function]}
+                stateName="jobDescription"
+                touched={false}
+                type="text"
+                value=""
+              />
+            </div>,
+            <div
+              className="row row-separationMedium row-gutterMedium"
+            >
+              <div
+                className="col col3"
+              />
+              <FormField
+                col="9"
+                isDirty={false}
+                isFocus={false}
+                isValid={false}
+                label="Phone number"
+                name="phonenumber"
+                onHandleBlur={[Function]}
+                onHandleChange={[Function]}
+                onHandleFocus={[Function]}
+                stateName="phoneNumber"
+                touched={false}
+                type="tel"
+                value=""
+              />
+            </div>,
+            <div
+              className="row row-separationMedium"
+            >
+              <FormField
+                isDirty={false}
+                isFocus={false}
+                isValid={false}
+                label="Email"
+                name="email"
+                onHandleBlur={[Function]}
+                onHandleChange={[Function]}
+                onHandleFocus={[Function]}
+                stateName="email"
+                touched={false}
+                type="email"
+                value=""
+              />
+            </div>,
+            <div
+              className="row row-separationMedium"
+            >
+              <FormField
+                isDirty={false}
+                isFocus={false}
+                label="Website"
+                name="website"
+                onHandleBlur={[Function]}
+                onHandleChange={[Function]}
+                onHandleFocus={[Function]}
+                stateName="website"
+                touched={false}
+                type="text"
+                value=""
+              />
+            </div>,
+            <div
+              className="row row-separationMedium"
+            >
+              <FormField
+                isDirty={false}
+                isFocus={false}
+                isValid={false}
+                label="Address"
+                name="address"
+                onHandleBlur={[Function]}
+                onHandleChange={[Function]}
+                onHandleFocus={[Function]}
+                stateName="address"
+                touched={false}
+                type="text"
+                value=""
+              />
+            </div>,
+            <div
+              className="row row-separationHuge"
+            >
+              <input
+                className="button button-full button-primary disabled"
+                type="submit"
+                value="Request"
+              />
+            </div>,
+          ],
+          "className": "form",
+          "onSubmit": [Function],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <FormField
+                isDirty={false}
+                isFocus={false}
+                isValid={false}
+                label="Full name"
+                name="fullname"
+                onHandleBlur={[Function]}
+                onHandleChange={[Function]}
+                onHandleFocus={[Function]}
+                stateName="fullName"
+                touched={false}
+                type="text"
+                value=""
+              />,
+              "className": "row",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "isDirty": false,
+                "isFocus": false,
+                "isValid": false,
+                "label": "Full name",
+                "name": "fullname",
+                "onHandleBlur": [Function],
+                "onHandleChange": [Function],
+                "onHandleFocus": [Function],
+                "stateName": "fullName",
+                "touched": false,
+                "type": "text",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <FormField
+                isDirty={false}
+                isFocus={false}
+                isValid={false}
+                label="Job description"
+                name="jobdescription"
+                onHandleBlur={[Function]}
+                onHandleChange={[Function]}
+                onHandleFocus={[Function]}
+                stateName="jobDescription"
+                touched={false}
+                type="text"
+                value=""
+              />,
+              "className": "row row-separationMedium",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "isDirty": false,
+                "isFocus": false,
+                "isValid": false,
+                "label": "Job description",
+                "name": "jobdescription",
+                "onHandleBlur": [Function],
+                "onHandleChange": [Function],
+                "onHandleFocus": [Function],
+                "stateName": "jobDescription",
+                "touched": false,
+                "type": "text",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="col col3"
+                />,
+                <FormField
+                  col="9"
+                  isDirty={false}
+                  isFocus={false}
+                  isValid={false}
+                  label="Phone number"
+                  name="phonenumber"
+                  onHandleBlur={[Function]}
+                  onHandleChange={[Function]}
+                  onHandleFocus={[Function]}
+                  stateName="phoneNumber"
+                  touched={false}
+                  type="tel"
+                  value=""
+                />,
+              ],
+              "className": "row row-separationMedium row-gutterMedium",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": false,
+                  "className": "col col3",
+                },
+                "ref": null,
+                "rendered": false,
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "col": "9",
+                  "isDirty": false,
+                  "isFocus": false,
+                  "isValid": false,
+                  "label": "Phone number",
+                  "name": "phonenumber",
+                  "onHandleBlur": [Function],
+                  "onHandleChange": [Function],
+                  "onHandleFocus": [Function],
+                  "stateName": "phoneNumber",
+                  "touched": false,
+                  "type": "tel",
+                  "value": "",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <FormField
+                isDirty={false}
+                isFocus={false}
+                isValid={false}
+                label="Email"
+                name="email"
+                onHandleBlur={[Function]}
+                onHandleChange={[Function]}
+                onHandleFocus={[Function]}
+                stateName="email"
+                touched={false}
+                type="email"
+                value=""
+              />,
+              "className": "row row-separationMedium",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "isDirty": false,
+                "isFocus": false,
+                "isValid": false,
+                "label": "Email",
+                "name": "email",
+                "onHandleBlur": [Function],
+                "onHandleChange": [Function],
+                "onHandleFocus": [Function],
+                "stateName": "email",
+                "touched": false,
+                "type": "email",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <FormField
+                isDirty={false}
+                isFocus={false}
+                label="Website"
+                name="website"
+                onHandleBlur={[Function]}
+                onHandleChange={[Function]}
+                onHandleFocus={[Function]}
+                stateName="website"
+                touched={false}
+                type="text"
+                value=""
+              />,
+              "className": "row row-separationMedium",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "isDirty": false,
+                "isFocus": false,
+                "label": "Website",
+                "name": "website",
+                "onHandleBlur": [Function],
+                "onHandleChange": [Function],
+                "onHandleFocus": [Function],
+                "stateName": "website",
+                "touched": false,
+                "type": "text",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <FormField
+                isDirty={false}
+                isFocus={false}
+                isValid={false}
+                label="Address"
+                name="address"
+                onHandleBlur={[Function]}
+                onHandleChange={[Function]}
+                onHandleFocus={[Function]}
+                stateName="address"
+                touched={false}
+                type="text"
+                value=""
+              />,
+              "className": "row row-separationMedium",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "isDirty": false,
+                "isFocus": false,
+                "isValid": false,
+                "label": "Address",
+                "name": "address",
+                "onHandleBlur": [Function],
+                "onHandleChange": [Function],
+                "onHandleFocus": [Function],
+                "stateName": "address",
+                "touched": false,
+                "type": "text",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <input
+                className="button button-full button-primary disabled"
+                type="submit"
+                value="Request"
+              />,
+              "className": "row row-separationHuge",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "button button-full button-primary disabled",
+                "type": "submit",
+                "value": "Request",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            "type": "div",
+          },
+        ],
+        "type": "form",
+      },
+      "type": "article",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": false,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;
